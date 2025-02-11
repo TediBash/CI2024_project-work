@@ -58,8 +58,6 @@ The problem was tackled using a custom evolutionary algorithm.
    - Perform migration of individuals between islands with a small random probability to happend
    - Substitute one individual with the best individual overall
    - Substitute one individual with the best individual from a random island
-   - Perform elitism to retain the top 5% of individuals.
-   - Select the remaining 95% using a roulette wheel mechanism based on fitness.
 
 8. **Iteration**:
    - Repeat the process for a fixed number of generations (40).
